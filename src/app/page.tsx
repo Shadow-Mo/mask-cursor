@@ -20,11 +20,11 @@ export default function Home() {
         transition={{ type: 'tween', ease: 'backOut', duration: 0.5}}
       >
         <p onMouseEnter={() => setIsHovered(true)} onMouseLeave={() => setIsHovered(false)} className="text-6xl">
-          A visual developer - with skills that haven't been replaced by A.I (yet) - making good shit only if the paycheck is equally good.
+          A visual developer - with skills that haven&apos;t been replaced by A.I (yet) - making good shit only if the paycheck is equally good.
         </p>
       </motion.div>
       <div className="flex justify-center items-center h-screen px-56">
-        <p className="text-6xl">I'm a <span className="text-[#ec4e39]">selectively skilled</span> fullstack developer with strong focus on producing high quality & impactful digital experience.</p>
+        <p className="text-6xl">I&apos;m a <span className="text-[#ec4e39]">selectively skilled</span> fullstack developer with strong focus on producing high quality & impactful digital experience.</p>
       </div>
     </main>
   );
